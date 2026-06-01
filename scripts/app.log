@@ -1,0 +1,5 @@
+INFO Start
+ERROR FehlerA
+INFO OK
+ERROR FehlerB
+ERROR FehlerA
