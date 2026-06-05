@@ -1,0 +1,24 @@
+{
+  "cpu": {
+    "usage_percent": 0.0
+  },
+  "memory": {
+    "total_mb": 3398,
+    "used_mb": 1400,
+    "free_mb": 285
+  },
+  "disk": {
+    "root": {
+      "size": "40G",
+      "used": "8.0G",
+      "avail": "30G",
+      "use_percent": "22%",
+      "mount": "/"
+    }
+  },
+  "network": {
+    "target": "8.8.8.8",
+    "reachable": true
+  },
+  "timestamp": "2026-06-05_19-17-28"
+}
