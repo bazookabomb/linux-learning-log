@@ -1,14 +1,51 @@
 # Linux Learning Log
 
+Dokumentation meines Lernwegs im Linux-Umfeld. Dieses Repository dient als persönliches Lerntagebuch und sammelt praktische Erfahrungen, Projekte und Notizen rund um Linux, das Terminal und die Systemadministration.
+
 ## Ziel
-Aufbau praktischer Linux- Grundlagen.
+
+Aufbau fundierter Linux-Kenntnisse durch regelmäßige Praxis, Dokumentation des Lernfortschritts und eigenständige Projekte.
 
 ## Inhalte
-- Wochenberichte
-- Projekte
-- Bash-Skripte
 
-## Fokus
-- Linux
-- Terminal
-- Systemverständnis
+* Wöchentliche Lernberichte
+* Linux-Projekte und Übungen
+* Bash-Skripte zur Automatisierung
+* Notizen zu Befehlen und Konzepten
+* Dokumentation von Problemen und Lösungen
+
+## Lernschwerpunkte
+
+* Linux-Grundlagen
+* Arbeiten im Terminal
+* Dateisysteme und Berechtigungen
+* Bash und Shell-Scripting
+* Git und Versionskontrolle
+* Python unter Linux
+* Systemverständnis und Administration
+
+## Struktur
+
+```text
+.
+├── Wochenberichte/
+├── Projekte/
+├── Bash-Skripte/
+└── README.md
+```
+
+## Motivation
+
+Ziel ist es, Linux nicht nur theoretisch zu verstehen, sondern durch tägliche Anwendung sicher im Umgang mit dem System, der Kommandozeile und typischen Entwicklerwerkzeugen zu werden.
+
+## Aktueller Stand
+
+* Linux-Installation und Einrichtung
+* Terminal-Grundlagen
+* Git und SSH
+* Erste Bash-Skripte
+* Einarbeitung in Vim
+* Python unter Linux
+
+```
+```
