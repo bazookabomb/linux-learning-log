@@ -1,0 +1,19 @@
+pwd
+ls
+cat
+touch
+man
+less
+cp
+mv
+mkdir
+grep
+chmod
+apt
+cd
+uptime
+ps aux
+top
+htop
+head
+tail
