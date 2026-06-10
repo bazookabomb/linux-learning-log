@@ -1,0 +1,17 @@
+Linux Lernnotizen
+cd wechselt Verzeichnisse
+ls zeigt Dateien an
+pwd zeigt den Pfad
+mkdir erstellt Ordner
+touch erstellt Dateien
+cat zeigt Inhalte an
+less zeigt lange Dateien
+grep sucht nach Text
+find findet Dateien
+chmod ändert Rechte
+man zeigt Hilfe
+vim ist ein Editor
+Git verwaltet Versionen
+Bash automatisiert Aufgaben
+Weitere Übungen folgen
+

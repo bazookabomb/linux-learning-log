@@ -1,0 +1,43 @@
+Projektbericht
+Einleitung
+Systemanalyse
+Anforderungen erfasst
+Umgebung vorbereitet
+Linux installiert
+Benutzer angelegt
+Verzeichnisse erstellt
+Dateirechte gesetzt
+Vim eingerichtet
+Python installiert
+Git konfiguriert
+Repository erstellt
+Erster Commit
+Bash-Grundlagen gelernt
+Variablen verwendet
+Bedingungen getestet
+Schleifen ausprobiert
+Dateien durchsucht
+grep verwendet
+find verwendet
+Logs analysiert
+Dateien gezählt
+Skript erstellt
+Fehler behoben
+Dokumentation begonnen
+Fortschritt überprüft
+Tests durchgeführt
+Ergebnisse ausgewertet
+Backup erstellt
+Code bereinigt
+Kommentare ergänzt
+Ausgabe verbessert
+Projektstruktur optimiert
+Lernziele geprüft
+Neue Aufgaben geplant
+Bash vertieft
+Linux-Kenntnisse verbessert
+Git weiter geübt
+Python aufgefrischt
+Abschlussnotizen
+Projekt erfolgreich beendet
+

@@ -1,0 +1,4 @@
+2026-06-10 09:56:34 INFO Backup start testspace/src -> testspace/dst/backup_2026-06-10_09-56-34.tar.gz
+2026-06-10 09:56:34 INFO Backup ok testspace/dst/backup_2026-06-10_09-56-34.tar.gz
+2026-06-10 09:56:34 INFO Restore start testspace/dst/backup_2026-06-10_09-56-34.tar.gz -> testspace/restore
+2026-06-10 09:56:34 INFO Restore ok testspace/restore
