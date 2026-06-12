@@ -1,0 +1,5 @@
+INFO Login erfolgreich
+INFO Backup gestartet
+ERROR Datenbankfehler
+INFO Benutzer angelegt
+ERROR Verbindung verloren
