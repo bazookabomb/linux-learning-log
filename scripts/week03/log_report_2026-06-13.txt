@@ -1,0 +1,9 @@
+=== LOG REPORT ===
+
+Erstellt: 13.06.2026 07:56:24
+Datei: logfile.txt
+
+INFO:    3 (60.0%)
+ERROR:   2 (40.0%)
+WARN:    0 (0.0%)
+TOTAL:   5
