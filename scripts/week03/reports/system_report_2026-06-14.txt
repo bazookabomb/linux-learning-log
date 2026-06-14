@@ -1,0 +1,23 @@
+
+=== SYSTEM MONITOR ===
+
+Benutzer: vboxuser
+Hostname: MyUbuntu
+
+Uptime:
+08:02:03 up 2 days, 18:20,  1 user,  load average: 0.59, 0.44, 0.33
+
+Speicher:
+total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       2.8Gi       165Mi       100Mi       639Mi       498Mi
+Swap:             0B          0B          0B
+
+Festplatte:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           680M  2.9M  677M   1% /run
+/dev/sda2        40G  9.2G   28G  25% /
+tmpfs           1.7G   30M  1.7G   2% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G  328K  1.7G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           340M  108K  340M   1% /run/user/1000
