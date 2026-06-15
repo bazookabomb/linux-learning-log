@@ -1,0 +1,7 @@
+1. Prozess wird immer erzeugt, job nur in der bash-shell?
+2. kill sendet signal dass Prozess sich selber beenden kann, höflich. kill -9 beendet den Prozess sofort.
+3. beendet den aktuellen job
+4. stoppt den aktuellen job
+5. führt einen gestoppten job im Hintergrund aus.
+6. holt einen job aus dem Hintergrund in den Vordergrund
+7. ist systemd, daran hängen viele andere Prozesse, wird zuerst gebootet
