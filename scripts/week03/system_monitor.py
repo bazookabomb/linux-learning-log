@@ -22,7 +22,7 @@ report = f"""
 
 Benutzer: {user}
 Hostname: {hostname}
-
+Erstellt: {datum}
 Uptime:
 {uptime}
 
