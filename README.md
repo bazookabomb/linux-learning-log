@@ -10,7 +10,7 @@ Aufbau fundierter Linux-Kenntnisse durch regelmäßige Praxis, Dokumentation des
 
 * Wöchentliche Lernberichte
 * Linux-Projekte und Übungen
-* Bash-Skripte zur Automatisierung
+* Bash- und Python- Skripte zur Automatisierung
 * Notizen zu Befehlen und Konzepten
 * Dokumentation von Problemen und Lösungen
 
@@ -30,7 +30,8 @@ Aufbau fundierter Linux-Kenntnisse durch regelmäßige Praxis, Dokumentation des
 .
 ├── Wochenberichte/
 ├── Projekte/
-├── Bash-Skripte/
+├── Bash- und Python- Skripte/
+├── Notizen/
 └── README.md
 ```
 
@@ -43,9 +44,9 @@ Ziel ist es, Linux nicht nur theoretisch zu verstehen, sondern durch tägliche A
 * Linux-Installation und Einrichtung
 * Terminal-Grundlagen
 * Git und SSH
-* Erste Bash-Skripte
+* Bash-Skripte
 * Einarbeitung in Vim
 * Python unter Linux
-
-```
-```
+* Docker unter Linux
+* Node unter Linux
+* Netzwerkbefehle
