@@ -2,7 +2,7 @@
 
 ## Lernziel
 
-Die Linux-Benutzerverwaltung kennenlernen, Benutzer und Gruppen sicher verwalten, den Umgang mit administrativen Rechten verstehen, Erfahrungen mit Docker unter Linux sammeln sowie grundlegende Netzwerkdiagnose-Befehle anwenden.
+Die Linux-Benutzerverwaltung für Mehr-User-System kennenlernen, Benutzer und Gruppen sicher verwalten, den Umgang mit administrativen Rechten verstehen, Erfahrungen mit Docker unter Linux sammeln sowie grundlegende Netzwerkdiagnose-Befehle anwenden.
 
 ---
 
@@ -78,5 +78,4 @@ Die Linux-Benutzerverwaltung kennenlernen, Benutzer und Gruppen sicher verwalten
 ## Nächste Schritte
 
 * Netzwerkdiagnose mit weiteren Werkzeugen wie `ping`, `traceroute` und `curl` erweitern
-* Linux-Sicherheit und Benutzerrechte weiter ausbauen
-
+* Netzwerkmonitor mit Python oder bash
