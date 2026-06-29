@@ -79,3 +79,7 @@ Die Linux-Benutzerverwaltung für Mehr-User-System kennenlernen, Benutzer und Gr
 
 * Netzwerkdiagnose mit weiteren Werkzeugen wie `ping`, `traceroute` und `curl` erweitern
 * Netzwerkmonitor mit Python oder bash
+* Firewall ufw 
+* Systemprotokolle analysieren und Fehler mithilfe von Logdateien finden
+* kleine Linux- Server mit Docker simulieren
+* kleine Netzwerkprojekte z. B. einen HTTP-Server mit Python starten und per curl testen
