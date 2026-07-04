@@ -17,3 +17,13 @@ top
 htop
 head
 tail
+ss -tuln
+ps
+awk
+sed
+diff
+find
+du
+free
+df
+
