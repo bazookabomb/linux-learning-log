@@ -1,0 +1,393 @@
+Kopiere /var/log/syslog (letzte 1000 Zeilen)
+2026-07-05T09:54:26.664714+00:00 MyUbuntu rsyslogd: [origin software="rsyslogd" swVersion="8.2512.0" x-pid="1662" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+2026-07-05T09:54:26.668572+00:00 MyUbuntu systemd[1]: logrotate.service: Deactivated successfully.
+2026-07-05T09:54:26.668676+00:00 MyUbuntu systemd[1]: Finished logrotate.service - Rotate log files.
+2026-07-05T09:57:12.183821+00:00 MyUbuntu systemd[3033]: Starting ubuntu-insights-upload.service - "Upload collected and matured platform reports using Ubuntu Insights while respecting consent"...
+2026-07-05T09:57:12.223836+00:00 MyUbuntu kernel: audit: type=1400 audit(1783245432.222:276): apparmor="AUDIT" operation="userns_create" class="namespace" info="Userns create - transitioning profile" profile="unconfined" pid=4902 comm="(ubuntu-insigh)" requested="userns_create" target="unprivileged_userns" execpath="/usr/lib/systemd/systemd-executor"
+2026-07-05T09:57:12.225314+00:00 MyUbuntu kernel: audit: type=1400 audit(1783245432.223:277): apparmor="DENIED" operation="capable" class="cap" profile="unprivileged_userns" pid=4902 comm="(ubuntu-insigh)" capability=21  capname="sys_admin"
+2026-07-05T09:57:12.251220+00:00 MyUbuntu systemd[3033]: Finished ubuntu-insights-upload.service - "Upload collected and matured platform reports using Ubuntu Insights while respecting consent".
+2026-07-05T09:57:27.030321+00:00 MyUbuntu systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-07-05T09:57:27.126129+00:00 MyUbuntu dbus-daemon[1367]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.121' (uid=982 pid=4916 comm="/usr/bin/fwupdmgr refresh" label="unconfined")
+2026-07-05T09:57:27.130843+00:00 MyUbuntu systemd[1]: Starting modprobe@sd_mod.service - Load Kernel Module sd_mod...
+2026-07-05T09:57:27.241318+00:00 MyUbuntu systemd[1]: modprobe@sd_mod.service: Deactivated successfully.
+2026-07-05T09:57:27.242488+00:00 MyUbuntu systemd[1]: Finished modprobe@sd_mod.service - Load Kernel Module sd_mod.
+2026-07-05T09:57:27.267405+00:00 MyUbuntu systemd[1]: Starting fwupd.service - Firmware update daemon...
+2026-07-05T09:57:27.477875+00:00 MyUbuntu dbus-daemon[1367]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.123' (uid=0 pid=4925 comm="/usr/libexec/fwupd/fwupd" label="unconfined")
+2026-07-05T09:57:27.480720+00:00 MyUbuntu systemd[1]: bluetooth.service - Bluetooth service skipped, unmet condition check ConditionPathIsDirectory=/sys/class/bluetooth
+2026-07-05T09:57:29.581313+00:00 MyUbuntu fwupd[4925]: 09:57:29.579 FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:01.1/ata1/host0/target0:0:0/0:0:0:0/block/sr0: failed to subclass open: failed to open /dev/sr0: No medium found
+2026-07-05T09:57:29.800845+00:00 MyUbuntu fwupd[4925]: 09:57:29.800 FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:01.1/ata1/host0/target0:0:0/0:0:0:0/block/sr0: failed to subclass open: failed to open /dev/sr0: No medium found
+2026-07-05T09:57:29.913767+00:00 MyUbuntu fwupd[4925]: 09:57:29.911 FuMain               fwupd 2.1.1 ready for requests (locale en_US.UTF-8)
+2026-07-05T09:57:29.915784+00:00 MyUbuntu dbus-daemon[1367]: [system] Successfully activated service 'org.freedesktop.fwupd'
+2026-07-05T09:57:29.922092+00:00 MyUbuntu systemd[1]: Started fwupd.service - Firmware update daemon.
+2026-07-05T09:57:29.924683+00:00 MyUbuntu fwupdmgr[4916]: Updating lvfs
+2026-07-05T09:57:30.230569+00:00 MyUbuntu fwupdmgr[4916]: Successfully downloaded new metadata:
+2026-07-05T09:57:30.231429+00:00 MyUbuntu fwupdmgr[4916]:  • No devices are updatable
+2026-07-05T09:57:30.247828+00:00 MyUbuntu systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-07-05T09:57:30.250136+00:00 MyUbuntu systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-07-05T10:00:12.177211+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T10:00:12.220326+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T10:00:12.220733+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T10:03:25.706210+00:00 MyUbuntu systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-07-05T10:03:25.800489+00:00 MyUbuntu systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-07-05T10:03:25.800805+00:00 MyUbuntu systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-07-05T10:10:02.188875+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T10:10:02.241728+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T10:10:02.242900+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T10:17:01.751880+00:00 MyUbuntu CRON[5010]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-07-05T10:20:12.187058+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T10:20:12.240161+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T10:20:12.240713+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T10:30:01.031909+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T10:30:01.213610+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T10:30:01.214926+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T10:30:01.300982+00:00 MyUbuntu CRON[5027]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-07-05T10:33:54.019052+00:00 MyUbuntu systemd[1]: Started anacron.service - Run anacron jobs.
+2026-07-05T10:33:54.042433+00:00 MyUbuntu anacron[5030]: Anacron 2.3 started on 2026-07-05
+2026-07-05T10:33:54.043218+00:00 MyUbuntu anacron[5030]: Normal exit (0 jobs run)
+2026-07-05T10:33:54.044384+00:00 MyUbuntu systemd[1]: anacron.service: Deactivated successfully.
+2026-07-05T10:39:53.980979+00:00 MyUbuntu systemd[1]: Starting apt-daily-upgrade.service - Daily apt upgrade and clean activities...
+2026-07-05T10:39:55.551907+00:00 MyUbuntu systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+2026-07-05T10:39:55.552081+00:00 MyUbuntu systemd[1]: Finished apt-daily-upgrade.service - Daily apt upgrade and clean activities.
+2026-07-05T10:39:55.552543+00:00 MyUbuntu systemd[1]: apt-daily-upgrade.service: Consumed 1.539s CPU time over 1.574s wall clock time, 52.5M memory peak.
+2026-07-05T10:40:02.267882+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T10:40:02.412936+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T10:40:02.413719+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T11:47:13.886063+00:00 MyUbuntu kernel: 11:47:13.885498 timesync vgsvcTimeSyncWorker: Radical host time change: 3 956 424 000 000ns (HostNow=1 783 252 033 885 000 000 ns HostLast=1 783 248 077 461 000 000 ns)
+2026-07-05T11:47:13.886957+00:00 MyUbuntu systemd-resolved[635]: Clock change detected. Flushing caches.
+2026-07-05T11:47:13.893311+00:00 MyUbuntu systemd[1]: Started anacron.service - Run anacron jobs.
+2026-07-05T11:47:13.903616+00:00 MyUbuntu systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-07-05T11:47:13.904056+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T11:47:13.910450+00:00 MyUbuntu anacron[5168]: Anacron 2.3 started on 2026-07-05
+2026-07-05T11:47:13.911192+00:00 MyUbuntu anacron[5168]: Normal exit (0 jobs run)
+2026-07-05T11:47:13.911904+00:00 MyUbuntu systemd[1]: anacron.service: Deactivated successfully.
+2026-07-05T11:47:13.926078+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T11:47:13.926299+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T11:47:13.971712+00:00 MyUbuntu fwupdmgr[5169]: Updating lvfs
+2026-07-05T11:47:14.157969+00:00 MyUbuntu fwupdmgr[5169]: Successfully downloaded new metadata:
+2026-07-05T11:47:14.158203+00:00 MyUbuntu fwupdmgr[5169]:  • No devices are updatable
+2026-07-05T11:47:14.162231+00:00 MyUbuntu systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-07-05T11:47:14.162559+00:00 MyUbuntu systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-07-05T11:47:23.893746+00:00 MyUbuntu kernel: 11:47:23.889795 timesync vgsvcTimeSyncWorker: Radical guest time change: 3 956 278 194 000ns (GuestNow=1 783 252 043 889 786 000 ns GuestLast=1 783 248 087 611 592 000 ns fSetTimeLastLoop=true)
+2026-07-05T11:47:47.853766+00:00 MyUbuntu CRON[5189]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-07-05T11:49:20.077305+00:00 MyUbuntu chronyd[1506]: Forward time jump detected!
+2026-07-05T11:49:20.078989+00:00 MyUbuntu chronyd[1506]: Can't synchronise: no selectable sources (0 unreachable sources)
+2026-07-05T11:50:30.958437+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T11:50:31.015174+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T11:50:31.015743+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T11:51:29.841969+00:00 MyUbuntu chronyd[1506]: Selected source 185.125.190.123 (2.ntp.ubuntu.com)
+2026-07-05T11:52:34.130803+00:00 MyUbuntu chronyd[1506]: Selected source 185.125.190.122 (1.ntp.ubuntu.com)
+2026-07-05T11:53:38.893779+00:00 MyUbuntu chronyd[1506]: Selected source 185.125.190.123 (2.ntp.ubuntu.com)
+2026-07-05T12:00:00.231154+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T12:00:00.440895+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T12:00:00.442763+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T12:00:53.975697+00:00 MyUbuntu systemd[3033]: Started snap.firmware-updater.firmware-notifier.service - Service for snap application firmware-updater.firmware-notifier.
+2026-07-05T12:00:54.145745+00:00 MyUbuntu systemd[1]: tmp-snap.rootfs_D2GwuS.mount: Deactivated successfully.
+2026-07-05T12:00:54.406082+00:00 MyUbuntu kernel: audit: type=1400 audit(1783252854.404:278): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5214/mountinfo" pid=5214 comm="snap-exec" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-05T12:00:54.431180+00:00 MyUbuntu kernel: audit: type=1400 audit(1783252854.428:279): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5255/mountinfo" pid=5255 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-05T12:00:54.438287+00:00 MyUbuntu kernel: audit: type=1400 audit(1783252854.436:280): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5259/mountinfo" pid=5259 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-05T12:00:54.631249+00:00 MyUbuntu kernel: audit: type=1400 audit(1783252854.629:281): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/sys/vm/max_map_count" pid=5214 comm="firmware-notifi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2026-07-05T12:03:08.766422+00:00 MyUbuntu NetworkManager[1511]: ((../src/libnm-systemd-core/src/libsystemd/sd-event/sd-event.c:4488)): assertion '<dropped>' failed
+2026-07-05T12:04:16.199246+00:00 MyUbuntu systemd-resolved[635]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 172.16.233.206.
+2026-07-05T12:04:23.449497+00:00 MyUbuntu systemd-resolved[635]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 172.16.233.206.
+2026-07-05T12:04:58.840296+00:00 MyUbuntu NetworkManager[1511]: <info>  [1783253098.8377] manager: NetworkManager state is now CONNECTED_SITE
+2026-07-05T12:04:58.855473+00:00 MyUbuntu dbus-daemon[1367]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=1511 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+2026-07-05T12:04:58.869382+00:00 MyUbuntu systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+2026-07-05T12:04:58.896239+00:00 MyUbuntu dbus-daemon[1367]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+2026-07-05T12:04:58.896734+00:00 MyUbuntu systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+2026-07-05T12:05:08.925331+00:00 MyUbuntu systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2026-07-05T12:07:58.470317+00:00 MyUbuntu systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-07-05T12:07:58.600657+00:00 MyUbuntu fwupdmgr[5313]: Updating lvfs
+2026-07-05T12:08:18.782962+00:00 MyUbuntu systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-07-05T12:08:18.787886+00:00 MyUbuntu systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-07-05T12:09:45.918401+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.123:4460 (2.ntp.ubuntu.com) : Connection refused
+2026-07-05T12:10:01.612247+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T12:10:01.753864+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T12:10:01.754556+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T12:11:55.061428+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.123:4460 (2.ntp.ubuntu.com) : Connection refused
+2026-07-05T12:14:04.325299+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.123:4460 (2.ntp.ubuntu.com) : Connection refused
+2026-07-05T12:14:06.869750+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.122:4460 (1.ntp.ubuntu.com) : Connection refused
+2026-07-05T12:14:08.792817+00:00 MyUbuntu chronyd[1506]: Could not connect to 91.189.91.113:4460 (4.ntp.ubuntu.com) : Connection refused
+2026-07-05T12:14:08.994130+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.121:4460 (ntp-bootstrap.ubuntu.com) : Connection refused
+2026-07-05T12:14:09.189739+00:00 MyUbuntu chronyd[1506]: Can't synchronise: no selectable sources (5 unreachable sources)
+2026-07-05T12:14:09.190624+00:00 MyUbuntu chronyd[1506]: Could not connect to 91.189.91.112:4460 (3.ntp.ubuntu.com) : Connection refused
+2026-07-05T12:16:14.058121+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.123:4460 (2.ntp.ubuntu.com) : Connection refused
+2026-07-05T12:17:01.452136+00:00 MyUbuntu CRON[5338]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-07-05T12:18:25.907592+00:00 MyUbuntu chronyd[1506]: Could not connect to 91.189.91.113:4460 (4.ntp.ubuntu.com) : Connection refused
+2026-07-05T12:18:27.286899+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.122:4460 (1.ntp.ubuntu.com) : Connection refused
+2026-07-05T12:18:27.992079+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.121:4460 (ntp-bootstrap.ubuntu.com) : Connection refused
+2026-07-05T12:18:28.199047+00:00 MyUbuntu chronyd[1506]: Could not connect to 91.189.91.112:4460 (3.ntp.ubuntu.com) : Connection refused
+2026-07-05T19:37:36.015337+00:00 MyUbuntu systemd-resolved[635]: Clock change detected. Flushing caches.
+2026-07-05T19:37:36.015979+00:00 MyUbuntu kernel: 19:37:36.015813 timesync vgsvcTimeSyncWorker: Radical host time change: 26 351 092 000 000ns (HostNow=1 783 280 256 014 000 000 ns HostLast=1 783 253 904 922 000 000 ns)
+2026-07-05T19:37:36.027037+00:00 MyUbuntu systemd[1]: Started anacron.service - Run anacron jobs.
+2026-07-05T19:37:36.027331+00:00 MyUbuntu systemd[3033]: Started snap.firmware-updater.firmware-notifier.service - Service for snap application firmware-updater.firmware-notifier.
+2026-07-05T19:37:36.030694+00:00 MyUbuntu systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-07-05T19:37:36.030817+00:00 MyUbuntu systemd[1]: Starting motd-news.service - Message of the Day...
+2026-07-05T19:37:36.031102+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T19:37:36.047169+00:00 MyUbuntu anacron[5343]: Anacron 2.3 started on 2026-07-05
+2026-07-05T19:37:36.047584+00:00 MyUbuntu systemd[1]: motd-news.service: Deactivated successfully.
+2026-07-05T19:37:36.048110+00:00 MyUbuntu anacron[5343]: Normal exit (0 jobs run)
+2026-07-05T19:37:36.052961+00:00 MyUbuntu systemd[1]: Finished motd-news.service - Message of the Day.
+2026-07-05T19:37:36.053568+00:00 MyUbuntu systemd[1]: anacron.service: Deactivated successfully.
+2026-07-05T19:37:36.067703+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T19:37:36.069079+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T19:37:36.122029+00:00 MyUbuntu fwupdmgr[5344]: Updating lvfs
+2026-07-05T19:37:36.142837+00:00 MyUbuntu kernel: audit: type=1400 audit(1783280256.141:282): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5342/mountinfo" pid=5342 comm="snap-exec" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-05T19:37:36.166744+00:00 MyUbuntu kernel: audit: type=1400 audit(1783280256.166:283): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5396/mountinfo" pid=5396 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-05T19:37:36.175741+00:00 MyUbuntu kernel: audit: type=1400 audit(1783280256.174:284): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5400/mountinfo" pid=5400 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-05T19:37:36.195787+00:00 MyUbuntu kernel: audit: type=1400 audit(1783280256.195:285): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/sys/vm/max_map_count" pid=5342 comm="firmware-notifi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2026-07-05T19:37:46.017778+00:00 MyUbuntu kernel: 19:37:46.016837 timesync vgsvcTimeSyncWorker: Radical guest time change: 26 351 090 529 000ns (GuestNow=1 783 280 266 016 829 000 ns GuestLast=1 783 253 914 926 300 000 ns fSetTimeLastLoop=true)
+2026-07-05T19:37:47.035883+00:00 MyUbuntu chronyd[1506]: Forward time jump detected!
+2026-07-05T19:37:56.282913+00:00 MyUbuntu systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-07-05T19:37:56.284174+00:00 MyUbuntu systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-07-05T19:38:29.819315+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.123:4460 (2.ntp.ubuntu.com) : Connection refused
+2026-07-05T19:38:51.573999+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.121:4460 (ntp-bootstrap.ubuntu.com) : Connection refused
+2026-07-05T19:38:51.821475+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.122:4460 (1.ntp.ubuntu.com) : Connection refused
+2026-07-05T19:38:52.024375+00:00 MyUbuntu chronyd[1506]: Could not connect to 91.189.91.113:4460 (4.ntp.ubuntu.com) : Connection refused
+2026-07-05T19:38:52.226281+00:00 MyUbuntu chronyd[1506]: Could not connect to 91.189.91.112:4460 (3.ntp.ubuntu.com) : Connection refused
+2026-07-05T19:40:42.796353+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T19:40:42.883910+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T19:40:42.885016+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T19:41:00.395772+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.121:4460 (ntp-bootstrap.ubuntu.com) : Connection refused
+2026-07-05T19:41:01.530992+00:00 MyUbuntu chronyd[1506]: Could not connect to 91.189.91.112:4460 (3.ntp.ubuntu.com) : Connection refused
+2026-07-05T19:41:01.826236+00:00 MyUbuntu chronyd[1506]: Could not connect to 91.189.91.113:4460 (4.ntp.ubuntu.com) : Connection refused
+2026-07-05T19:41:02.117158+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.122:4460 (1.ntp.ubuntu.com) : Connection refused
+2026-07-05T19:43:53.434927+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.123:4460 (2.ntp.ubuntu.com) : Connection refused
+2026-07-05T19:44:13.861569+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.121:4460 (ntp-bootstrap.ubuntu.com) : Connection refused
+2026-07-05T19:44:16.027688+00:00 MyUbuntu chronyd[1506]: Could not connect to 91.189.91.113:4460 (4.ntp.ubuntu.com) : Connection refused
+2026-07-05T19:44:16.247710+00:00 MyUbuntu chronyd[1506]: Could not connect to 91.189.91.112:4460 (3.ntp.ubuntu.com) : Connection refused
+2026-07-05T19:44:17.121857+00:00 MyUbuntu chronyd[1506]: Could not connect to 185.125.190.122:4460 (1.ntp.ubuntu.com) : Connection refused
+2026-07-05T19:47:56.692322+00:00 MyUbuntu NetworkManager[1511]: <info>  [1783280876.6903] manager: NetworkManager state is now CONNECTED_GLOBAL
+2026-07-05T19:47:56.708682+00:00 MyUbuntu dbus-daemon[1367]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=1511 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+2026-07-05T19:47:56.732133+00:00 MyUbuntu systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+2026-07-05T19:47:56.754065+00:00 MyUbuntu dbus-daemon[1367]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+2026-07-05T19:47:56.755057+00:00 MyUbuntu systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+2026-07-05T19:48:06.801081+00:00 MyUbuntu systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2026-07-05T19:50:35.297867+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T19:50:35.350335+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T19:50:35.350914+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T19:52:51.380271+00:00 MyUbuntu chronyd[1506]: Selected source 185.125.190.121 (ntp-bootstrap.ubuntu.com)
+2026-07-05T19:52:53.912813+00:00 MyUbuntu chronyd[1506]: Selected source 91.189.91.112 (3.ntp.ubuntu.com)
+2026-07-05T19:54:00.369175+00:00 MyUbuntu chronyd[1506]: Selected source 185.125.190.122 (1.ntp.ubuntu.com)
+2026-07-05T20:00:29.051388+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T20:00:29.103909+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T20:00:29.104099+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T20:10:24.065807+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T20:10:24.131504+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T20:10:24.132502+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T20:17:02.018179+00:00 MyUbuntu CRON[5460]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-07-05T20:20:19.043975+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T20:20:19.106084+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T20:20:19.106609+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T20:30:01.169297+00:00 MyUbuntu CRON[5472]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-07-05T20:30:15.299244+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T20:30:15.355503+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T20:30:15.356187+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T20:34:02.823185+00:00 MyUbuntu systemd[1]: Started anacron.service - Run anacron jobs.
+2026-07-05T20:34:02.859681+00:00 MyUbuntu anacron[5480]: Anacron 2.3 started on 2026-07-05
+2026-07-05T20:34:02.860410+00:00 MyUbuntu anacron[5480]: Normal exit (0 jobs run)
+2026-07-05T20:34:02.861442+00:00 MyUbuntu systemd[1]: anacron.service: Deactivated successfully.
+2026-07-05T20:40:00.202451+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T20:40:00.310199+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T20:40:00.310534+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T20:48:21.387061+00:00 MyUbuntu systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-07-05T20:48:21.472049+00:00 MyUbuntu fwupdmgr[5492]: Updating lvfs
+2026-07-05T20:48:21.712714+00:00 MyUbuntu fwupdmgr[5492]: Successfully downloaded new metadata:
+2026-07-05T20:48:21.712962+00:00 MyUbuntu fwupdmgr[5492]:  • No devices are updatable
+2026-07-05T20:48:21.717073+00:00 MyUbuntu systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-07-05T20:48:21.717869+00:00 MyUbuntu systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-07-05T20:50:01.614456+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T20:50:01.789729+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T20:50:01.790487+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T21:00:01.561375+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T21:00:01.663974+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T21:00:01.664350+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T21:00:53.976168+00:00 MyUbuntu systemd[3033]: Started snap.firmware-updater.firmware-notifier.service - Service for snap application firmware-updater.firmware-notifier.
+2026-07-05T21:00:54.091768+00:00 MyUbuntu kernel: audit: type=1400 audit(1783285254.089:286): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5519/mountinfo" pid=5519 comm="snap-exec" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-05T21:00:54.120911+00:00 MyUbuntu kernel: audit: type=1400 audit(1783285254.117:287): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5556/mountinfo" pid=5556 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-05T21:00:54.127254+00:00 MyUbuntu kernel: audit: type=1400 audit(1783285254.124:288): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5560/mountinfo" pid=5560 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-05T21:00:54.146757+00:00 MyUbuntu kernel: audit: type=1400 audit(1783285254.144:289): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/sys/vm/max_map_count" pid=5519 comm="firmware-notifi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2026-07-05T21:10:03.973948+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T21:10:04.116356+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T21:10:04.116980+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T21:13:33.521323+00:00 MyUbuntu update-notifier[3533]: g_object_get_data: assertion 'G_IS_OBJECT (object)' failed
+2026-07-05T21:17:01.258989+00:00 MyUbuntu CRON[5584]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-07-05T21:20:05.069512+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T21:20:05.173051+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T21:20:05.173507+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T21:30:01.336411+00:00 MyUbuntu CRON[5595]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-07-05T21:30:06.453086+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-05T21:30:06.506175+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-05T21:30:06.506563+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-05T21:34:10.060010+00:00 MyUbuntu systemd[1]: Started anacron.service - Run anacron jobs.
+2026-07-05T21:34:10.088576+00:00 MyUbuntu anacron[5603]: Anacron 2.3 started on 2026-07-05
+2026-07-05T21:34:10.090279+00:00 MyUbuntu anacron[5603]: Normal exit (0 jobs run)
+2026-07-05T21:34:10.091025+00:00 MyUbuntu systemd[1]: anacron.service: Deactivated successfully.
+2026-07-06T07:23:10.531605+00:00 MyUbuntu kernel: 07:23:10.531156 timesync vgsvcTimeSyncWorker: Radical host time change: 35 090 261 000 000ns (HostNow=1 783 322 590 531 000 000 ns HostLast=1 783 287 500 270 000 000 ns)
+2026-07-06T07:23:10.532862+00:00 MyUbuntu systemd-resolved[635]: Clock change detected. Flushing caches.
+2026-07-06T07:23:10.541498+00:00 MyUbuntu systemd[3033]: Started snap.firmware-updater.firmware-notifier.service - Service for snap application firmware-updater.firmware-notifier.
+2026-07-06T07:23:10.547419+00:00 MyUbuntu systemd[1]: Started anacron.service - Run anacron jobs.
+2026-07-06T07:23:10.550916+00:00 MyUbuntu anacron[5608]: Anacron 2.3 started on 2026-07-06
+2026-07-06T07:23:10.551306+00:00 MyUbuntu anacron[5608]: Will run job `cron.daily' in 5 min.
+2026-07-06T07:23:10.551391+00:00 MyUbuntu anacron[5608]: Jobs will be executed sequentially
+2026-07-06T07:23:10.556684+00:00 MyUbuntu systemd[1]: Starting apt-daily-upgrade.service - Daily apt upgrade and clean activities...
+2026-07-06T07:23:10.559137+00:00 MyUbuntu systemd[1]: Starting dpkg-db-backup.service - Daily dpkg database backup service...
+2026-07-06T07:23:10.560926+00:00 MyUbuntu systemd[1]: Starting fstrim.service - Discard unused blocks on filesystems from /etc/fstab...
+2026-07-06T07:23:10.567078+00:00 MyUbuntu systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-07-06T07:23:10.568371+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T07:23:10.571105+00:00 MyUbuntu systemd[1]: Starting sysstat-rotate.service - system activity accounting tool...
+2026-07-06T07:23:10.574500+00:00 MyUbuntu systemd[1]: Starting sysstat-summary.service - Generate a daily summary of process accounting...
+2026-07-06T07:23:10.580688+00:00 MyUbuntu systemd[1]: Starting logrotate.service - Rotate log files...
+2026-07-06T07:23:10.646214+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T07:23:10.646368+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T07:23:10.653960+00:00 MyUbuntu systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+2026-07-06T07:23:10.655871+00:00 MyUbuntu systemd[1]: Finished dpkg-db-backup.service - Daily dpkg database backup service.
+2026-07-06T07:23:10.714631+00:00 MyUbuntu systemd[1]: sysstat-rotate.service: Deactivated successfully.
+2026-07-06T07:23:10.716655+00:00 MyUbuntu systemd[1]: Finished sysstat-rotate.service - system activity accounting tool.
+2026-07-06T07:23:10.762449+00:00 MyUbuntu kernel: audit: type=1400 audit(1783322590.755:290): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5607/mountinfo" pid=5607 comm="snap-exec" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-06T07:23:10.817586+00:00 MyUbuntu kernel: audit: type=1400 audit(1783322590.810:291): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5695/mountinfo" pid=5695 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-06T07:23:10.850574+00:00 MyUbuntu kernel: audit: type=1400 audit(1783322590.841:292): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5705/mountinfo" pid=5705 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-06T07:23:10.858163+00:00 MyUbuntu systemd[1]: sysstat-summary.service: Deactivated successfully.
+2026-07-06T07:23:10.858258+00:00 MyUbuntu systemd[1]: Finished sysstat-summary.service - Generate a daily summary of process accounting.
+2026-07-06T07:23:10.871178+00:00 MyUbuntu systemd[1]: Stopping cups-browsed.service - Make remote CUPS printers available locally...
+2026-07-06T07:23:10.878233+00:00 MyUbuntu kernel: audit: type=1400 audit(1783322590.877:293): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/sys/vm/max_map_count" pid=5607 comm="firmware-notifi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2026-07-06T07:23:10.881887+00:00 MyUbuntu fwupdmgr[5616]: Updating lvfs
+2026-07-06T07:23:10.901927+00:00 MyUbuntu systemd[1]: fstrim.service: Deactivated successfully.
+2026-07-06T07:23:10.904619+00:00 MyUbuntu systemd[1]: Finished fstrim.service - Discard unused blocks on filesystems from /etc/fstab.
+2026-07-06T07:23:10.905214+00:00 MyUbuntu systemd[1]: cups-browsed.service: Deactivated successfully.
+2026-07-06T07:23:10.905704+00:00 MyUbuntu systemd[1]: Stopped cups-browsed.service - Make remote CUPS printers available locally.
+2026-07-06T07:23:10.907339+00:00 MyUbuntu systemd[1]: Stopping cups.service - CUPS Scheduler...
+2026-07-06T07:23:10.913151+00:00 MyUbuntu systemd[1]: cups.service: Deactivated successfully.
+2026-07-06T07:23:10.913557+00:00 MyUbuntu systemd[1]: Stopped cups.service - CUPS Scheduler.
+2026-07-06T07:23:10.913949+00:00 MyUbuntu systemd[1]: cups.path: Deactivated successfully.
+2026-07-06T07:23:10.914023+00:00 MyUbuntu systemd[1]: Stopped cups.path - CUPS Scheduler.
+2026-07-06T07:23:10.914091+00:00 MyUbuntu systemd[1]: Stopping cups.path - CUPS Scheduler...
+2026-07-06T07:23:10.914461+00:00 MyUbuntu systemd[1]: Started cups.path - CUPS Scheduler.
+2026-07-06T07:23:10.917407+00:00 MyUbuntu systemd[1]: cups.socket: Deactivated successfully.
+2026-07-06T07:23:10.917450+00:00 MyUbuntu systemd[1]: Closed cups.socket - CUPS Scheduler.
+2026-07-06T07:23:10.917493+00:00 MyUbuntu systemd[1]: Stopping cups.socket - CUPS Scheduler...
+2026-07-06T07:23:10.917523+00:00 MyUbuntu systemd[1]: Listening on cups.socket - CUPS Scheduler.
+2026-07-06T07:23:10.919603+00:00 MyUbuntu systemd[1]: Starting cups.service - CUPS Scheduler...
+2026-07-06T07:23:10.937483+00:00 MyUbuntu kernel: audit: type=1400 audit(1783322590.936:294): apparmor="DENIED" operation="open" class="file" profile="/usr/sbin/cupsd" name="/etc/paperspecs" pid=5732 comm="cupsd" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-07-06T07:23:10.940107+00:00 MyUbuntu systemd[1]: Started cups.service - CUPS Scheduler.
+2026-07-06T07:23:10.943607+00:00 MyUbuntu kernel: audit: type=1400 audit(1783322590.939:295): apparmor="DENIED" operation="capable" class="cap" profile="/usr/sbin/cupsd" pid=5732 comm="cupsd" capability=12  capname="net_admin"
+2026-07-06T07:23:10.944245+00:00 MyUbuntu systemd[1]: Started cups-browsed.service - Make remote CUPS printers available locally.
+2026-07-06T07:23:10.944803+00:00 MyUbuntu systemd[1]: logrotate.service: Deactivated successfully.
+2026-07-06T07:23:10.945198+00:00 MyUbuntu systemd[1]: Finished logrotate.service - Rotate log files.
+2026-07-06T07:23:12.750511+00:00 MyUbuntu systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+2026-07-06T07:23:12.750691+00:00 MyUbuntu systemd[1]: Finished apt-daily-upgrade.service - Daily apt upgrade and clean activities.
+2026-07-06T07:23:12.751152+00:00 MyUbuntu systemd[1]: apt-daily-upgrade.service: Consumed 1.873s CPU time over 2.193s wall clock time, 51.1M memory peak.
+2026-07-06T07:23:13.305106+00:00 MyUbuntu fwupdmgr[5616]: Successfully downloaded new metadata:
+2026-07-06T07:23:13.305545+00:00 MyUbuntu fwupdmgr[5616]:  • No devices are updatable
+2026-07-06T07:23:13.313815+00:00 MyUbuntu systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-07-06T07:23:13.315229+00:00 MyUbuntu systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-07-06T07:23:20.533026+00:00 MyUbuntu kernel: 07:23:20.532055 timesync vgsvcTimeSyncWorker: Radical guest time change: 35 090 273 759 000ns (GuestNow=1 783 322 600 532 047 000 ns GuestLast=1 783 287 510 258 288 000 ns fSetTimeLastLoop=true)
+2026-07-06T07:23:52.749482+00:00 MyUbuntu chronyd[1506]: Forward time jump detected!
+2026-07-06T07:23:52.749724+00:00 MyUbuntu chronyd[1506]: Can't synchronise: no selectable sources (0 unreachable sources)
+2026-07-06T07:26:01.937265+00:00 MyUbuntu chronyd[1506]: Selected source 185.125.190.121 (ntp-bootstrap.ubuntu.com)
+2026-07-06T07:26:02.452041+00:00 MyUbuntu chronyd[1506]: Selected source 185.125.190.123 (2.ntp.ubuntu.com)
+2026-07-06T07:28:10.557966+00:00 MyUbuntu anacron[5608]: Job `cron.daily' started
+2026-07-06T07:28:10.576561+00:00 MyUbuntu anacron[5875]: Updated timestamp for job `cron.daily' to 2026-07-06
+2026-07-06T07:28:10.604766+00:00 MyUbuntu anacron[5608]: Job `cron.daily' terminated
+2026-07-06T07:28:10.606090+00:00 MyUbuntu anacron[5608]: Normal exit (1 job run)
+2026-07-06T07:28:10.607444+00:00 MyUbuntu systemd[1]: anacron.service: Deactivated successfully.
+2026-07-06T07:30:01.747031+00:00 MyUbuntu CRON[5887]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-07-06T07:30:15.072238+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T07:30:15.181966+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T07:30:15.182603+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T07:30:23.364633+00:00 MyUbuntu systemd[1]: Started anacron.service - Run anacron jobs.
+2026-07-06T07:30:23.481827+00:00 MyUbuntu anacron[5893]: Anacron 2.3 started on 2026-07-06
+2026-07-06T07:30:23.483643+00:00 MyUbuntu anacron[5893]: Normal exit (0 jobs run)
+2026-07-06T07:30:23.485106+00:00 MyUbuntu systemd[1]: anacron.service: Deactivated successfully.
+2026-07-06T07:37:54.589316+00:00 MyUbuntu chronyd[1506]: Selected source 185.125.190.122 (1.ntp.ubuntu.com)
+2026-07-06T07:40:12.566001+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T07:40:12.598135+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T07:40:12.598273+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T07:50:06.321013+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T07:50:06.373850+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T07:50:06.374416+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T08:00:23.427415+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T08:00:23.476148+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T08:00:23.476881+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T08:10:23.356009+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T08:10:23.404246+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T08:10:23.405029+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T08:17:01.148491+00:00 MyUbuntu CRON[5945]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-07-06T08:20:23.341528+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T08:20:23.487950+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T08:20:23.489035+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T08:29:39.819539+00:00 MyUbuntu systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-07-06T08:29:39.922806+00:00 MyUbuntu systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-07-06T08:29:39.923333+00:00 MyUbuntu systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-07-06T08:30:01.264036+00:00 MyUbuntu CRON[5967]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-07-06T08:30:23.340139+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T08:30:23.445914+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T08:30:23.446661+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T08:31:12.074835+00:00 MyUbuntu systemd[1]: Started anacron.service - Run anacron jobs.
+2026-07-06T08:31:12.112588+00:00 MyUbuntu anacron[5973]: Anacron 2.3 started on 2026-07-06
+2026-07-06T08:31:12.114582+00:00 MyUbuntu anacron[5973]: Normal exit (0 jobs run)
+2026-07-06T08:31:12.116183+00:00 MyUbuntu systemd[1]: anacron.service: Deactivated successfully.
+2026-07-06T09:23:51.921288+00:00 MyUbuntu kernel: 09:23:51.920172 timesync vgsvcTimeSyncWorker: Radical host time change: 3 148 689 000 000ns (HostNow=1 783 329 831 920 000 000 ns HostLast=1 783 326 683 231 000 000 ns)
+2026-07-06T09:23:51.921877+00:00 MyUbuntu systemd-resolved[635]: Clock change detected. Flushing caches.
+2026-07-06T09:23:51.927446+00:00 MyUbuntu systemd[3033]: Started snap.firmware-updater.firmware-notifier.service - Service for snap application firmware-updater.firmware-notifier.
+2026-07-06T09:23:51.957584+00:00 MyUbuntu systemd[1]: Starting apt-daily.service - Daily apt download activities...
+2026-07-06T09:23:51.964453+00:00 MyUbuntu systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-07-06T09:23:51.966555+00:00 MyUbuntu systemd[1]: Starting motd-news.service - Message of the Day...
+2026-07-06T09:23:51.975360+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T09:23:52.034478+00:00 MyUbuntu systemd[1]: motd-news.service: Deactivated successfully.
+2026-07-06T09:23:52.034577+00:00 MyUbuntu systemd[1]: Finished motd-news.service - Message of the Day.
+2026-07-06T09:23:52.073431+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T09:23:52.073578+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T09:23:52.156808+00:00 MyUbuntu kernel: audit: type=1400 audit(1783329832.153:296): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/5975/mountinfo" pid=5975 comm="snap-exec" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-06T09:23:52.225809+00:00 MyUbuntu kernel: audit: type=1400 audit(1783329832.220:297): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/6038/mountinfo" pid=6038 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-06T09:23:52.251576+00:00 MyUbuntu kernel: audit: type=1400 audit(1783329832.244:298): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/6046/mountinfo" pid=6046 comm="snapctl" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+2026-07-06T09:23:52.290692+00:00 MyUbuntu systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-07-06T09:23:52.291419+00:00 MyUbuntu systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-07-06T09:23:52.303330+00:00 MyUbuntu kernel: audit: type=1400 audit(1783329832.302:299): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/sys/vm/max_map_count" pid=5975 comm="firmware-notifi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2026-07-06T09:23:53.367696+00:00 MyUbuntu systemd[1]: Starting apt-news.service - Update APT News...
+2026-07-06T09:23:53.385022+00:00 MyUbuntu systemd[1]: Starting esm-cache.service - Update the local ESM caches...
+2026-07-06T09:23:54.042697+00:00 MyUbuntu systemd[1]: apt-news.service: Deactivated successfully.
+2026-07-06T09:23:54.043313+00:00 MyUbuntu systemd[1]: Finished apt-news.service - Update APT News.
+2026-07-06T09:23:54.440971+00:00 MyUbuntu dbus-daemon[1367]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.149' (uid=0 pid=6136 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+2026-07-06T09:23:54.446739+00:00 MyUbuntu systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2026-07-06T09:23:54.460505+00:00 MyUbuntu PackageKit: daemon start
+2026-07-06T09:23:54.489449+00:00 MyUbuntu dbus-daemon[1367]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+2026-07-06T09:23:54.490698+00:00 MyUbuntu systemd[1]: Started packagekit.service - PackageKit Daemon.
+2026-07-06T09:23:54.957757+00:00 MyUbuntu systemd[1]: esm-cache.service: Deactivated successfully.
+2026-07-06T09:23:54.960378+00:00 MyUbuntu systemd[1]: Finished esm-cache.service - Update the local ESM caches.
+2026-07-06T09:24:01.534548+00:00 MyUbuntu systemd[1]: apt-daily.service: Deactivated successfully.
+2026-07-06T09:24:01.534715+00:00 MyUbuntu systemd[1]: Finished apt-daily.service - Daily apt download activities.
+2026-07-06T09:24:01.534920+00:00 MyUbuntu systemd[1]: apt-daily.service: Consumed 7.518s CPU time over 9.579s wall clock time, 414.8M memory peak.
+2026-07-06T09:24:01.554926+00:00 MyUbuntu chronyd[1506]: Forward time jump detected!
+2026-07-06T09:24:01.555011+00:00 MyUbuntu chronyd[1506]: Can't synchronise: no selectable sources (0 unreachable sources)
+2026-07-06T09:24:01.935182+00:00 MyUbuntu kernel: 09:24:01.935076 timesync vgsvcTimeSyncWorker: Radical guest time change: 3 148 656 777 000ns (GuestNow=1 783 329 841 935 068 000 ns GuestLast=1 783 326 693 278 291 000 ns fSetTimeLastLoop=true)
+2026-07-06T09:26:10.926368+00:00 MyUbuntu chronyd[1506]: Selected source 185.125.190.121 (ntp-bootstrap.ubuntu.com)
+2026-07-06T09:26:11.300636+00:00 MyUbuntu chronyd[1506]: Selected source 185.125.190.122 (1.ntp.ubuntu.com)
+2026-07-06T09:28:59.489464+00:00 MyUbuntu PackageKit: daemon quit
+2026-07-06T09:28:59.497828+00:00 MyUbuntu systemd[1]: packagekit.service: Deactivated successfully.
+2026-07-06T09:29:25.822205+00:00 MyUbuntu chronyd[1506]: Selected source 185.125.190.123 (2.ntp.ubuntu.com)
+2026-07-06T09:30:01.945067+00:00 MyUbuntu CRON[6380]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-07-06T09:30:12.004504+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T09:30:12.064512+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T09:30:12.064610+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T09:32:40.219647+00:00 MyUbuntu systemd[1]: Started anacron.service - Run anacron jobs.
+2026-07-06T09:32:40.313782+00:00 MyUbuntu anacron[6386]: Anacron 2.3 started on 2026-07-06
+2026-07-06T09:32:40.315606+00:00 MyUbuntu anacron[6386]: Normal exit (0 jobs run)
+2026-07-06T09:32:40.317012+00:00 MyUbuntu systemd[1]: anacron.service: Deactivated successfully.
+2026-07-06T09:40:11.984551+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T09:40:12.040789+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T09:40:12.041516+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T09:48:50.192261+00:00 MyUbuntu chronyd[1506]: Selected source 185.125.190.122 (1.ntp.ubuntu.com)
+2026-07-06T09:50:11.981755+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T09:50:12.064457+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T09:50:12.065016+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T09:55:13.054945+00:00 MyUbuntu snapd[1388]: storehelpers.go:914: cannot refresh: snap has no updates available: "bare", "core20", "core24", "desktop-security-center", "firmware-updater", "gaming-graphics-core24", "gtk-common-themes", "mesa-2404", "prompting-client", "snap-store", "snapd-desktop-integration"
+2026-07-06T10:00:08.962318+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T10:00:09.014396+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T10:00:09.014825+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T10:10:02.711363+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T10:10:02.830068+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T10:10:02.830824+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-07-06T10:17:01.094092+00:00 MyUbuntu CRON[6507]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-07-06T10:20:11.981470+00:00 MyUbuntu systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-07-06T10:20:12.036000+00:00 MyUbuntu systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-07-06T10:20:12.036406+00:00 MyUbuntu systemd[1]: Finished sysstat-collect.service - system activity accounting tool.

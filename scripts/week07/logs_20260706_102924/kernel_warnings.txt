@@ -1,0 +1,3 @@
+-- No entries --
+ERROR running dmesg:
+Command '['dmesg']' returned non-zero exit status 1.

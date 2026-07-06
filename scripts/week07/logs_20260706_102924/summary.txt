@@ -1,0 +1,5 @@
+Linux Log Analyzer
+Datum: 2026-07-06 10:29:24.275540
+Hostname: MyUbuntu
+Since: -1 hour
+Lines: 1000
