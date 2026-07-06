@@ -1,0 +1,5 @@
+Warnungen (journal)
+Jul 06 09:23:51 MyUbuntu kernel: 09:23:51.920172 timesync vgsvcTimeSyncWorker: Radical host time change: 3 148 689 000 000ns (HostNow=1 783 329 831 920 000 000 ns HostLast=1 783 326 683 231 000 000 ns)
+Jul 06 09:24:01 MyUbuntu chronyd[1506]: Forward time jump detected!
+Jul 06 09:24:01 MyUbuntu chronyd[1506]: Can't synchronise: no selectable sources (0 unreachable sources)
+Jul 06 09:24:01 MyUbuntu kernel: 09:24:01.935076 timesync vgsvcTimeSyncWorker: Radical guest time change: 3 148 656 777 000ns (GuestNow=1 783 329 841 935 068 000 ns GuestLast=1 783 326 693 278 291 000 ns fSetTimeLastLoop=true)

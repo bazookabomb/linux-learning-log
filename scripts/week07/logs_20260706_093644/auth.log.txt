@@ -1,0 +1,28 @@
+Kopiere /var/log/auth.log
+2026-07-05T09:57:52.484860+00:00 MyUbuntu dbus-daemon[1367]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-07-05T10:17:01.745790+00:00 MyUbuntu CRON[5008]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-05T10:17:01.758343+00:00 MyUbuntu CRON[5008]: pam_unix(cron:session): session closed for user root
+2026-07-05T10:30:01.298187+00:00 MyUbuntu CRON[5025]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-05T10:30:01.307576+00:00 MyUbuntu CRON[5025]: pam_unix(cron:session): session closed for user root
+2026-07-05T11:47:47.853421+00:00 MyUbuntu CRON[5187]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-05T11:47:47.854673+00:00 MyUbuntu CRON[5187]: pam_unix(cron:session): session closed for user root
+2026-07-05T12:17:01.446403+00:00 MyUbuntu CRON[5336]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-05T12:17:01.454800+00:00 MyUbuntu CRON[5336]: pam_unix(cron:session): session closed for user root
+2026-07-05T20:17:02.010300+00:00 MyUbuntu CRON[5458]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-05T20:17:02.022508+00:00 MyUbuntu CRON[5458]: pam_unix(cron:session): session closed for user root
+2026-07-05T20:30:01.165140+00:00 MyUbuntu CRON[5470]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-05T20:30:01.172491+00:00 MyUbuntu CRON[5470]: pam_unix(cron:session): session closed for user root
+2026-07-05T21:17:01.255342+00:00 MyUbuntu CRON[5582]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-05T21:17:01.259054+00:00 MyUbuntu CRON[5582]: pam_unix(cron:session): session closed for user root
+2026-07-05T21:30:01.328846+00:00 MyUbuntu CRON[5593]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-05T21:30:01.336584+00:00 MyUbuntu CRON[5593]: pam_unix(cron:session): session closed for user root
+2026-07-06T07:30:01.744907+00:00 MyUbuntu CRON[5885]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-06T07:30:01.754054+00:00 MyUbuntu CRON[5885]: pam_unix(cron:session): session closed for user root
+2026-07-06T08:17:01.142063+00:00 MyUbuntu CRON[5943]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-06T08:17:01.156604+00:00 MyUbuntu CRON[5943]: pam_unix(cron:session): session closed for user root
+2026-07-06T08:30:01.262045+00:00 MyUbuntu CRON[5965]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-06T08:30:01.267384+00:00 MyUbuntu CRON[5965]: pam_unix(cron:session): session closed for user root
+2026-07-06T09:26:29.672924+00:00 MyUbuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2026-07-06T09:26:29.674746+00:00 MyUbuntu pkexec[6362]: vboxuser: Executing command [USER=root] [TTY=unknown] [CWD=/home/vboxuser] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-07-06T09:30:01.943005+00:00 MyUbuntu CRON[6378]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-06T09:30:01.948599+00:00 MyUbuntu CRON[6378]: pam_unix(cron:session): session closed for user root

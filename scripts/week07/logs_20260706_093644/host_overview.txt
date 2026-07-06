@@ -1,0 +1,14 @@
+Kurze Systemübersicht
+Linux MyUbuntu 7.0.0-27-generic #27-Ubuntu SMP PREEMPT_DYNAMIC Thu Jun 18 19:13:49 UTC 2026 x86_64 GNU/Linux
+ 09:36:44 up  4:46,  1 user,  load average: 0.22, 0.11, 0.03
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       1.3Gi       349Mi        32Mi       2.0Gi       2.0Gi
+Swap:             0B          0B          0B
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           680M  2.4M  678M   1% /run
+/dev/sda2        40G   13G   25G  34% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.7G  8.0K  1.7G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           340M   84K  340M   1% /run/user/1000
