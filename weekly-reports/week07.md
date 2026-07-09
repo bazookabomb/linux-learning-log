@@ -60,4 +60,5 @@ Die Linux-Grundlagen durch ein eigenes Log-Analyse-Projekt festigen, den Umgang 
 
 Die Woche wurde vorzeitig abgeschlossen, da alle geplanten Linux-Themen erfolgreich bearbeitet wurden. Mit dem Enhanced Log Analyzer, der Einrichtung eines `systemd`-Services sowie der Wiederholung der Docker-Grundlagen ist die Linux-Lernphase abgeschlossen und eine solide Grundlage für den nächsten Themenkomplex geschaffen.
 
-den Link zum nächsten Repo, in dem ich Git- und Container- Lerninhalte, sowie CI bearbeite, werde ich hier posten: 
+den Link zum nächsten Repo, in dem ich Git- und Container- Lerninhalte, sowie CI bearbeite, werde ich hier posten:
+https://github.com/bazookabomb/git-docker-ci-learning
